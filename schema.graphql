@@ -1,0 +1,9 @@
+type BurnData @entity {
+  id: ID!
+
+  amount: BigInt!
+
+  timestamp: BigInt!
+
+  account: String!
+}
